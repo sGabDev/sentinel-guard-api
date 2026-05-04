@@ -1,0 +1,30 @@
+{
+    "name": "sentinel-guard-api",
+    "version": "1.0.0",
+    "description": "API de segurança em tempo real para detecção e bloqueio de ataques HTTP",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "node server.js"
+    },
+    "keywords": [
+        "cybersecurity",
+        "api-security",
+        "attack-detection",
+        "nodejs",
+        "socket.io",
+        "rate-limit",
+        "xss",
+        "sql-injection"
+    ],
+    "author": "Security Engineer",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.18.2",
+        "socket.io": "^4.6.1",
+        "cors": "^2.8.5"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    }
+}
